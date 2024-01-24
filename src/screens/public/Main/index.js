@@ -7,8 +7,15 @@ export default function Main() {
 	return (
 		<div>
 			<NavBar />
-			<Title />
-			<AboutMe />
+
+			<div className="snap-mandatory snap-y">
+				<div className="snap-center">
+					<Title />
+				</div>
+				<div className="snap-center">
+					<AboutMe />
+				</div>
+			</div>
 		</div>
 	);
 }
