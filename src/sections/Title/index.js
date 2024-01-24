@@ -8,9 +8,8 @@ export default function Title() {
 				<Image
 					src="/title/title_image_0.jpg"
 					fill
-					objectFit="cover"
 					alt="Charisse Layasan"
-					className="rounded-md shadow-xl shadow-slate-500 items-center"
+					className="rounded-md shadow-xl shadow-slate-500 items-center object-cover"
 				/>
 			</div>
 

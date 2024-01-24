@@ -28,9 +28,8 @@ export default function AboutMe() {
 				<Image
 					src="/title/title_image_0.jpg"
 					fill
-					objectFit="cover"
 					alt="Charisse Layasan"
-					className="rounded-md shadow-xl shadow-slate-500 relative"
+					className="rounded-md shadow-xl shadow-slate-500 relative object-cover"
 				/>
 			</div>
 		</Section>

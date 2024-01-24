@@ -5,17 +5,10 @@ import React from "react";
 
 export default function Main() {
 	return (
-		<div>
+		<div className="h-screen w-screen lg:overflow-y-scroll lg:scroll-smooth lg:snap-mandatory lg:snap-y">
 			<NavBar />
-
-			<div className="snap-mandatory snap-y">
-				<div className="snap-center">
-					<Title />
-				</div>
-				<div className="snap-center">
-					<AboutMe />
-				</div>
-			</div>
+			<Title />
+			<AboutMe />
 		</div>
 	);
 }
