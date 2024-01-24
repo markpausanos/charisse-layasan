@@ -10,7 +10,7 @@ function NavBarLink({ children }) {
 
 export default function NavBar() {
 	return (
-		<div className="fixed w-screen z-10 opacity-100  bg-white">
+		<div className="fixed w-screen z-10 opacity-100  bg-white dark:bg-black">
 			<div className="px-5 py-5 flex flex-col justify-between items-center gap-5 md:px-10 md:flex-row lg:px-15">
 				<div>
 					<a href="/">
