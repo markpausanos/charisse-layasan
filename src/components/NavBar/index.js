@@ -14,7 +14,7 @@ function NavBarLink({ children, id }) {
 
 export default function NavBar() {
 	return (
-		<div className="w-screen z-10 opacity-100 bg-white dark:bg-black lg:fixed">
+		<div className="w-screen z-10 opacity-100 bg-white dark:bg-black fixed">
 			<div className="px-5 py-5 flex flex-col justify-between items-center gap-5 md:px-10 md:flex-row lg:px-15">
 				<div>
 					<a href="/">
@@ -28,7 +28,6 @@ export default function NavBar() {
 					<NavBarLink id="#About">About Me</NavBarLink>
 					<NavBarLink id="#Why">My Why</NavBarLink>
 					<NavBarLink id="#Offerings">Services</NavBarLink>
-
 					<ThemeButton />
 				</div>
 			</div>

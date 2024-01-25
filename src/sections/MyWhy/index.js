@@ -11,7 +11,7 @@ export default function MyWhy() {
 					</h1>
 				</div>
 				<div className="w-full">
-					<p className="font-manjari text-justify text-xl md:text-xl lg:text-2xl xl:text-3xl">
+					<p className="font-manjari text-center md:text-justify md:text-xl lg:text-2xl xl:text-3xl">
 						I want to provide tailored and high-quality services to business
 						owners and entrepreneurs while cultivating a genuine
 						person-to-person connection so we can achieve the

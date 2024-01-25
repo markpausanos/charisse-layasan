@@ -11,7 +11,7 @@ export default function AboutMe() {
 					</h1>
 				</div>
 				<div className="w-full">
-					<p className="font-manjari text-justify text-xl md:text-xl lg:text-2xl xl:text-3xl">
+					<p className="font-manjari text-xl text-center md:text-justify lg:text-2xl xl:text-3xl">
 						I&apos;m that type of kid in school you want to be in a group with
 						because having me in your team makes the group a sure success. And
 						yes, I was almost always the leader. If you count that as
