@@ -6,7 +6,7 @@ export default function MyWhy() {
 		<Section>
 			<div id="Why" className="flex flex-col gap-10 justify-center lg:w-1/2">
 				<div className="flex flex-col items-center gap-5 lg:items-start">
-					<h1 className="font-belleza font-bold text-1xl md:text-3xl lg:text-5xl xl:text-7xl flex-wrap">
+					<h1 className="font-belleza flex-wrap font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
 						My Why
 					</h1>
 				</div>
