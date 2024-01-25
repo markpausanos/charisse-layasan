@@ -1,5 +1,7 @@
 import NavBar from "@/components/NavBar";
 import AboutMe from "@/sections/AboutMe";
+import MyWhy from "@/sections/MyWhy";
+import Offerings from "@/sections/Offerings";
 import Title from "@/sections/Title";
 import React from "react";
 
@@ -9,6 +11,8 @@ export default function Main() {
 			<NavBar />
 			<Title />
 			<AboutMe />
+			<MyWhy />
+			<Offerings />
 		</div>
 	);
 }

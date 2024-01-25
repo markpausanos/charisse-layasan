@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Manjari:wght@100&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	--scroll-behavior: smooth !important;
+	scroll-behavior: smooth !important;
+}

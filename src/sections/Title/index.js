@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Title() {
 	return (
-		<Section>
-			<div className="relative h-[50vh] lg:w-1/2 lg:h-auto">
+		<Section className="lg:px-[10vw] xl:px-[10vw]">
+			<div id="Home" className="relative h-[50vh] lg:w-1/2 lg:h-auto">
 				<Image
 					src="/title/title_image_0.jpg"
 					fill
@@ -14,13 +14,13 @@ export default function Title() {
 			</div>
 
 			<div className="flex flex-col text-center justify-center gap-3 lg:w-1/2">
-				<h1 className="font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+				<h1 className="font-belleza font-bold text-nowrap text-4xl md:text-5xl lg:text-6xl xl:text-8xl">
 					Charisse Layasan
 				</h1>
-				<h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+				<h2 className="font-manjari text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
 					Virtual Assistant
 				</h2>
-				<h2 className="pt-5 text-1xl md:text-2xl lg:text-3xl xl:text-4xl">
+				<h2 className="font-manjari pt-5 text-1xl md:text-2xl lg:text-3xl xl:text-4xl">
 					Your success is my success
 				</h2>
 			</div>

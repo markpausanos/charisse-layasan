@@ -4,15 +4,14 @@ import Image from "next/image";
 export default function AboutMe() {
 	return (
 		<Section>
-			<div className="flex flex-col gap-10 items-center lg:w-1/2">
-				<div className="flex flex-col items-center gap-5">
-					<h1 className="font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl flex-wrap">
+			<div id="About" className="flex flex-col gap-10 justify-center lg:w-1/2">
+				<div className="flex flex-col items-center gap-5 lg:items-start">
+					<h1 className="font-belleza flex-wrap font-bold text-1xl md:text-3xl lg:text-5xl xl:text-7xl ">
 						About Me
 					</h1>
-					<h1>Hello</h1>
 				</div>
 				<div className="w-full">
-					<p className="text-justify text-sm md md:text-md xl:text-lg">
+					<p className="font-manjari text-justify text-xl md:text-xl lg:text-2xl xl:text-3xl">
 						I&apos;m that type of kid in school you want to be in a group with
 						because having me in your team makes the group a sure success. And
 						yes, I was almost always the leader. If you count that as
