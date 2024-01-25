@@ -27,7 +27,7 @@ export default function NavBar() {
 					<NavBarLink id="#Home">Home</NavBarLink>
 					<NavBarLink id="#About">About Me</NavBarLink>
 					<NavBarLink id="#Why">My Why</NavBarLink>
-					<NavBarLink id="#Offerings">Offerings</NavBarLink>
+					<NavBarLink id="#Offerings">Services</NavBarLink>
 
 					<ThemeButton />
 				</div>
