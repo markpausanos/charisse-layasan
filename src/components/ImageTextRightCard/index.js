@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ImageTextCard({ className }) {
+export default function ImageTextRightCard({ className }) {
 	return (
 		<div
 			className={`flex flex-col pt-[5vh] gap-10 items-center w-full min-h-[30vh] lg:flex-row lg:items-start lg:gap-5 ${className}`}
@@ -13,8 +13,8 @@ export default function ImageTextCard({ className }) {
 					className="rounded-md shadow-xl shadow-slate-500 relative object-cover"
 				/>
 			</div>
-			<div className="font-manjari">
-				<h1 className="text-xl md:text-xl lg:text-2xl xl:text-3xl">
+			<div>
+				<h1 className="font-manjari text-3xl md:text-4xl lg:text-5xl xl:text-6x">
 					Hello World
 				</h1>
 			</div>

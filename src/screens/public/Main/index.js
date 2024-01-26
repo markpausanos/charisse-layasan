@@ -3,6 +3,7 @@ import AboutMe from "@/sections/AboutMe";
 import MyWhy from "@/sections/MyWhy";
 import Offerings from "@/sections/Offerings";
 import Title from "@/sections/Title";
+import ToolsIUse from "@/sections/ToolsIUse";
 import React from "react";
 
 export default function Main() {
@@ -13,6 +14,7 @@ export default function Main() {
 			<AboutMe />
 			<MyWhy />
 			<Offerings />
+			<ToolsIUse />
 		</div>
 	);
 }

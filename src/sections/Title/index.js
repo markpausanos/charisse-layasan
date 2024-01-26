@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Title() {
 	return (
-		<Section className="lg:px-[5vw] xl:px-[5vw]">
+		<Section className="pt-[15vh] lg:px-[5vw] xl:px-[5vw]">
 			<div id="Home" className="relative h-[50vh] lg:w-1/2 lg:h-auto">
 				<Image
 					src="/title/title_image_0.jpg"

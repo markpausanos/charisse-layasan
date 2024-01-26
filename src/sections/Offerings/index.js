@@ -1,4 +1,4 @@
-import ImageTextCard from "@/components/ImageTextCard";
+import ImageTextRightCard from "@/components/ImageTextRightCard";
 import Section from "@/components/Section";
 
 export default function Offerings() {
@@ -9,12 +9,12 @@ export default function Offerings() {
 					<h1>Services I Offer</h1>
 				</div>
 				<div className="flex flex-wrap flex-col lg:flex-row">
-					<ImageTextCard className={"lg:w-1/3"} />
-					<ImageTextCard className={"lg:w-1/3"} />
-					<ImageTextCard className={"lg:w-1/3"} />
-					<ImageTextCard className={"lg:w-1/3"} />
-					<ImageTextCard className={"lg:w-1/3"} />
-					<ImageTextCard className={"lg:w-1/3"} />
+					<ImageTextRightCard className={"lg:w-1/3"} />
+					<ImageTextRightCard className={"lg:w-1/3"} />
+					<ImageTextRightCard className={"lg:w-1/3"} />
+					<ImageTextRightCard className={"lg:w-1/3"} />
+					<ImageTextRightCard className={"lg:w-1/3"} />
+					<ImageTextRightCard className={"lg:w-1/3"} />
 				</div>
 			</div>
 		</Section>
